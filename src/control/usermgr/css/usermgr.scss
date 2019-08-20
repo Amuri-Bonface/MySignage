@@ -1,0 +1,73 @@
+@import 'default';
+@import 'footer';
+@import 'nav';
+@import 'dialog';
+@import 'multiselect';
+@import 'ls-dropconfirm/css/dropconfirm.scss';
+
+$usermgr-minw: 250px;
+
+$user-inputs-w: 50%;
+$user-inputs-minw: 200px;
+$user-inputs-maxw: 400px;
+
+#users-table {
+	min-width: $usermgr-minw;
+	padding: {
+		left: $s4;
+		right: $s4;
+	}
+	margin: {
+		top: $s3;
+		bottom: $s3;
+	}
+
+	.card-body {
+		.input-container {
+			width: $user-inputs-w;
+			min-width: $user-inputs-minw;
+			max-width: $user-inputs-maxw;
+			margin: auto;
+
+			border-collapse: separate;
+			border-spacing: $s1 $s1;
+
+			label {
+				margin: 0;
+			}
+
+			td:first-of-type {
+				text-align: right;
+			}
+		}
+
+		.btn-container {
+			display: flex;
+			flex-direction: row;
+			justify-content: flex-end;
+
+			width: $user-inputs-w;
+			min-width: $user-inputs-minw;
+			max-width: $user-inputs-maxw;
+			margin: auto;
+
+			.btn-user-save, .btn-user-remove {
+				margin: {
+					left: $s1;
+					right: $s1;
+				}
+
+				.dropconfirm-open {
+					@extend .btn-danger;
+				}
+			}
+		}
+	}
+}
+
+#user-controls {
+	margin: {
+		bottom: $s3;
+	}
+	text-align: center;
+}

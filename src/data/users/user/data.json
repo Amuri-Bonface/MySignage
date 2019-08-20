@@ -1,0 +1,20 @@
+{
+	"__classname": "User",
+	"__visibility": "private",
+	"user": "user",
+	"hash": "$2y$10$.x3m780GNd39CsQZ97sQleyCvVShtTHwXwiw8e89neJOzCrRgyj8S",
+	"groups": [
+		"editor",
+		"display"
+	],
+	"sessions": [],
+	"quota": {
+		"__classname": "UserQuota",
+		"__visibility": "private",
+		"used": {
+			"slides": 0,
+			"api_rate": 0
+		},
+		"state": []
+	}
+}

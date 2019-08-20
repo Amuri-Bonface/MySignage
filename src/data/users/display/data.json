@@ -1,0 +1,19 @@
+{
+	"__classname": "User",
+	"__visibility": "private",
+	"user": "display",
+	"hash": "$2y$10$S\/YAg.iz1ndDXo\/g3CF4Gu34YeQxsmwpJtCHTPBn0i3vBCHhxveVy",
+	"groups": [
+		"display"
+	],
+	"sessions": [],
+	"quota": {
+		"__classname": "UserQuota",
+		"__visibility": "private",
+		"used": {
+			"slides": 0,
+			"api_rate": 0
+		},
+		"state": []
+	}
+}
