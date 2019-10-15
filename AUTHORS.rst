@@ -1,7 +1,7 @@
 Signage contributors
 #########################
 
-This document lists the contributors to the LibreSignage software project. The
+This document lists the contributors to the Signage software project. The
 list may not be complete. For a full list of contributors see the GIT commit
 history of LibreSignage.
 
